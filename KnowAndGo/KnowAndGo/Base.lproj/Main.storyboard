@@ -191,6 +191,14 @@
                                     <segue destination="rKG-pG-BzA" kind="presentation" id="hzD-5S-xrz"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFN-os-22O">
+                                <rect key="frame" x="192" y="654" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="test"/>
+                                <connections>
+                                    <segue destination="uYx-fJ-N8q" kind="presentation" id="7Sb-FF-peQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -222,7 +230,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where are you going?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fdf-qz-Rzl">
+                        <label key="tableHeaderView" opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where are you going?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fdf-qz-Rzl">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="168"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
@@ -406,7 +414,7 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="All Countries" id="J8q-e0-6uQ">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="R6H-4M-QTy" style="IBUITableViewCellStyleDefault" id="tdi-m0-5tf">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="R6H-4M-QTy" style="IBUITableViewCellStyleDefault" id="tdi-m0-5tf">
                                         <rect key="frame" x="0.0" y="279.5000011920929" width="414" height="1.1920928955078125e-07"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tdi-m0-5tf" id="Ilp-SN-upV">
@@ -423,7 +431,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="la5-6W-9Lx" style="IBUITableViewCellStyleDefault" id="yl3-D9-Hsu">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="la5-6W-9Lx" style="IBUITableViewCellStyleDefault" id="yl3-D9-Hsu">
                                         <rect key="frame" x="0.0" y="279.50000131130219" width="414" height="1.1920928955078125e-07"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yl3-D9-Hsu" id="wLT-5r-l6Q">
@@ -440,7 +448,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="OM8-RE-1ok" style="IBUITableViewCellStyleDefault" id="Q7j-Ps-iIc">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="OM8-RE-1ok" style="IBUITableViewCellStyleDefault" id="Q7j-Ps-iIc">
                                         <rect key="frame" x="0.0" y="279.50000143051147" width="414" height="1.1920928955078125e-07"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Q7j-Ps-iIc" id="fj8-eN-c3a">
@@ -457,7 +465,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="lzv-SV-0k3" style="IBUITableViewCellStyleDefault" id="4bP-lk-vaY">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="lzv-SV-0k3" style="IBUITableViewCellStyleDefault" id="4bP-lk-vaY">
                                         <rect key="frame" x="0.0" y="279.50000154972076" width="414" height="1.1920928955078125e-07"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4bP-lk-vaY" id="aWj-0x-B77">
@@ -474,7 +482,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="yvY-MZ-9ko" style="IBUITableViewCellStyleDefault" id="wFi-ad-WS1">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="yvY-MZ-9ko" style="IBUITableViewCellStyleDefault" id="wFi-ad-WS1">
                                         <rect key="frame" x="0.0" y="279.50000166893005" width="414" height="1.1920928955078125e-07"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wFi-ad-WS1" id="x87-PM-IWo">
@@ -3734,11 +3742,78 @@
             </objects>
             <point key="canvasLocation" x="302.89855072463769" y="75.669642857142847"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="dhA-Wx-6Dc">
+            <objects>
+                <viewController id="v7i-Od-7ck" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0ji-aS-Reo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="UrV-nd-5A2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fYh-08-5ya" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1094" y="76"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ylo-mk-RhR">
+            <objects>
+                <viewController id="uYx-fJ-N8q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Piv-UR-uX3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" image="MBS" translatesAutoresizingMaskIntoConstraints="NO" id="QKx-ZM-fMb">
+                                <rect key="frame" x="0.0" y="96" width="414" height="284"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Marina Bay Sands" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFg-qr-Rta">
+                                <rect key="frame" x="0.0" y="29" width="414" height="55"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zK6-3R-pNa">
+                                <rect key="frame" x="24" y="388" width="367" height="401"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Marina Bay Sands is a premier entertainment destination with its vibrant diversity of attractions and facilities. The vision was to build an integrated development that is timeless, a landmark that possesses a distinct identity which distinguishes Singapore from other cities.
+Located along the Marina Bay waterfront, Marina Bay Sands features three cascading hotel towers topped by an extraordinary sky park, 'floating' crystal pavilions, a lotus-inspired Museum, retail stores featuring cutting-edge labels and international luxury brands, trendy Celebrity Chef restaurants, endless entertainment at the theatres, the hottest night clubs and a Las Vegas-style casino. Business visitors will also enjoy the extensive Meetings, Incentives, Conventions and Exhibitions (MICE) facilities featuring state-of-the-art technology, highly flexible exhibition halls, and a convention centre that can host over 45,000 delegates.
+Marina Bay Sands seamlessly combines business and leisure into a singular destination unlike any other.
+</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="L3F-sW-II4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QFg-qr-Rta" firstAttribute="top" secondItem="Piv-UR-uX3" secondAttribute="topMargin" constant="30" id="06Z-fR-EcW"/>
+                            <constraint firstAttribute="bottom" secondItem="QKx-ZM-fMb" secondAttribute="bottom" constant="474" id="LpM-Q3-xdP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QFg-qr-Rta" secondAttribute="trailing" constant="-20" id="Zod-Vo-OFO"/>
+                            <constraint firstItem="QKx-ZM-fMb" firstAttribute="leading" secondItem="L3F-sW-II4" secondAttribute="leading" id="ZzK-ue-d30"/>
+                            <constraint firstItem="QFg-qr-Rta" firstAttribute="leading" secondItem="Piv-UR-uX3" secondAttribute="leadingMargin" constant="-20" id="fia-Ai-c8d"/>
+                            <constraint firstItem="QKx-ZM-fMb" firstAttribute="top" secondItem="Piv-UR-uX3" secondAttribute="top" constant="136" id="fv6-G3-p7c"/>
+                            <constraint firstItem="QKx-ZM-fMb" firstAttribute="trailing" secondItem="L3F-sW-II4" secondAttribute="trailing" id="jEq-1U-GeY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JfQ-tH-tba" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2175.36231884058" y="75.669642857142847"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="MBS" width="1850" height="1233.5"/>
         <image name="bed.double" catalog="system" width="128" height="82"/>
         <image name="creditcard" catalog="system" width="128" height="88"/>
         <image name="exclamationmark.triangle" catalog="system" width="128" height="112"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

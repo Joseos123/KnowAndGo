@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Marina_Bay_Sands_in_the_evening_-_20101120.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Marina_Bay_Sands_in_the_evening_-_20101120-1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Marina_Bay_Sands_in_the_evening_-_20101120-2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
