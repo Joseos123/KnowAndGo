@@ -45,6 +45,9 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
          pickerView.dataSource = self
          pickerView.delegate = self
 
+        textfield.inputView = pickerView
+        
+        
         return textfield
     }()
     
@@ -61,6 +64,10 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         self.view.addSubview(self.countryTextField)
         
         
+        self.countryTextField.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 10).isActive = true
+        self.countryTextField.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -10).isActive = true
+        self.countryTextField.heightAnchor.constraint(equalToConstant: 50).isActive = true
+
         
     }
 
