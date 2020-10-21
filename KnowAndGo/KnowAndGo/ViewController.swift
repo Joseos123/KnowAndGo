@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
+    @IBOutlet weak var pickerView: UIPickerView!
+    
     var countries:[String] = []
 
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -34,41 +36,14 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
 
         return countries
     }
-
-    lazy var countryTextField: UITextField = {
-        let textfield = UITextField()
-         textfield.translatesAutoresizingMaskIntoConstraints = false
-         textfield.placeholder = "Pick your Country"
-         textfield.borderStyle = .roundedRect
-
-        let pickerView = UIPickerView()
-         pickerView.dataSource = self
-         pickerView.delegate = self
-
-        textfield.inputView = pickerView
-        
-        
-        return textfield
-    }()
-    
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event:UIEvent?) {
-        self.view.endEditing(true)
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.countries = self.getCountryList()
         
-        self.view.addSubview(self.countryTextField)
-        
-        
-        self.countryTextField.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 10).isActive = true
-        self.countryTextField.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -10).isActive = true
-        self.countryTextField.heightAnchor.constraint(equalToConstant: 50).isActive = true
-
-        
+        pickerView.delegate = self
+        pickerView.dataSource = self
     }
 
 
