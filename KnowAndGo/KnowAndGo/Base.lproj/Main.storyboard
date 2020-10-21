@@ -52,6 +52,7 @@
                     </view>
                     <connections>
                         <outlet property="CountryPicker" destination="OB1-zf-X5i" id="uH8-9g-8Hm"/>
+                        <outlet property="countryTextField" destination="j0v-uj-CXf" id="lrZ-43-KPy"/>
                         <outlet property="g" destination="OB1-zf-X5i" id="irT-2R-YE7"/>
                     </connections>
                 </viewController>
