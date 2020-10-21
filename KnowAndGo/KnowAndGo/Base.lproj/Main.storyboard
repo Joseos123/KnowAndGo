@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17140" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17115"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,32 +17,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="am6-V3-1e1">
-                                <rect key="frame" x="103" y="120" width="209" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="am6-V3-1e1">
+                                <rect key="frame" x="0.0" y="120" width="414" height="60"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Where are you from?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOv-70-5FL">
-                                <rect key="frame" x="48" y="284" width="319" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where are you from?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOv-70-5FL">
+                                <rect key="frame" x="0.0" y="312" width="414" height="42"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdx-xf-q0i">
-                                <rect key="frame" x="170" y="746" width="32" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <pickerView contentMode="scaleToFill" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="OB1-zf-X5i">
+                                <rect key="frame" x="0.0" y="329" width="414" height="277"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="277" id="GUp-Ui-pSf"/>
+                                </constraints>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdx-xf-q0i">
+                                <rect key="frame" x="0.0" y="732" width="414" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                 <state key="normal" title="Next"/>
                             </button>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OB1-zf-X5i">
-                                <rect key="frame" x="0.0" y="427" width="414" height="162"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="am6-V3-1e1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4fQ-HS-frS"/>
+                            <constraint firstItem="OB1-zf-X5i" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="329" id="68Q-Nz-UBZ"/>
+                            <constraint firstItem="bOv-70-5FL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7Hb-u0-jib"/>
+                            <constraint firstItem="am6-V3-1e1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="EsA-RQ-UXs"/>
+                            <constraint firstItem="xdx-xf-q0i" firstAttribute="top" secondItem="OB1-zf-X5i" secondAttribute="bottom" constant="126" id="EsU-gg-jd4"/>
+                            <constraint firstAttribute="trailing" secondItem="bOv-70-5FL" secondAttribute="trailing" id="GMR-FT-WhT"/>
+                            <constraint firstItem="xdx-xf-q0i" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Osh-Tj-wSQ"/>
+                            <constraint firstItem="am6-V3-1e1" firstAttribute="centerX" secondItem="bOv-70-5FL" secondAttribute="centerX" id="Rra-yr-JWj"/>
+                            <constraint firstItem="bOv-70-5FL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="312" id="V8A-5N-5Jc"/>
+                            <constraint firstItem="xdx-xf-q0i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Xm3-MO-LG7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xdx-xf-q0i" secondAttribute="bottom" constant="82" id="ZLY-29-0hu"/>
+                            <constraint firstItem="bOv-70-5FL" firstAttribute="leading" secondItem="OB1-zf-X5i" secondAttribute="leading" id="cJe-bD-aK6"/>
+                            <constraint firstItem="bOv-70-5FL" firstAttribute="trailing" secondItem="OB1-zf-X5i" secondAttribute="trailing" id="n1V-h8-MTs"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="pickerView" destination="OB1-zf-X5i" id="Hsh-CJ-7gf"/>
