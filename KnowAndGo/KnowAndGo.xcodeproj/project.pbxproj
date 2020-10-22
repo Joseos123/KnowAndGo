@@ -15,6 +15,12 @@
 		82861EE2254039150077EB43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82861EE0254039150077EB43 /* LaunchScreen.storyboard */; };
 		82861EED254039160077EB43 /* KnowAndGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82861EEC254039160077EB43 /* KnowAndGoTests.swift */; };
 		82861EF8254039160077EB43 /* KnowAndGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82861EF7254039160077EB43 /* KnowAndGoUITests.swift */; };
+		82E477C42541095D00BE022E /* goWhereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E477C32541095D00BE022E /* goWhereViewController.swift */; };
+		82E477C525410A3C00BE022E /* goWhereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E477C32541095D00BE022E /* goWhereViewController.swift */; };
+		82E477C625410A3D00BE022E /* goWhereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E477C32541095D00BE022E /* goWhereViewController.swift */; };
+		82E477C825410D6A00BE022E /* goToCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E477C725410D6A00BE022E /* goToCountryViewController.swift */; };
+		82E477C925410D9800BE022E /* goToCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E477C725410D6A00BE022E /* goToCountryViewController.swift */; };
+		82E477CA25410D9800BE022E /* goToCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E477C725410D6A00BE022E /* goToCountryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,8 @@
 		82861EF3254039160077EB43 /* KnowAndGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnowAndGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82861EF7254039160077EB43 /* KnowAndGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowAndGoUITests.swift; sourceTree = "<group>"; };
 		82861EF9254039160077EB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E477C32541095D00BE022E /* goWhereViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goWhereViewController.swift; sourceTree = "<group>"; };
+		82E477C725410D6A00BE022E /* goToCountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goToCountryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,8 @@
 				82861EDE254039150077EB43 /* Assets.xcassets */,
 				82861EE0254039150077EB43 /* LaunchScreen.storyboard */,
 				82861EE3254039150077EB43 /* Info.plist */,
+				82E477C32541095D00BE022E /* goWhereViewController.swift */,
+				82E477C725410D6A00BE022E /* goToCountryViewController.swift */,
 			);
 			path = KnowAndGo;
 			sourceTree = "<group>";
@@ -260,7 +270,9 @@
 			files = (
 				82861EDA254039140077EB43 /* ViewController.swift in Sources */,
 				82861ED6254039140077EB43 /* AppDelegate.swift in Sources */,
+				82E477C42541095D00BE022E /* goWhereViewController.swift in Sources */,
 				82861ED8254039140077EB43 /* SceneDelegate.swift in Sources */,
+				82E477C825410D6A00BE022E /* goToCountryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E477C925410D9800BE022E /* goToCountryViewController.swift in Sources */,
+				82E477C525410A3C00BE022E /* goWhereViewController.swift in Sources */,
 				82861EED254039160077EB43 /* KnowAndGoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E477CA25410D9800BE022E /* goToCountryViewController.swift in Sources */,
+				82E477C625410A3D00BE022E /* goWhereViewController.swift in Sources */,
 				82861EF8254039160077EB43 /* KnowAndGoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

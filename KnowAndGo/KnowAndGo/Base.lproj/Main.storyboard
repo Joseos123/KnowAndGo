@@ -33,14 +33,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap Continue, and enter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GrE-ZX-OUf">
-                                <rect key="frame" x="0.0" y="545.5" width="414" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <rect key="frame" x="0.0" y="551.5" width="414" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To get started," textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HwJ-ve-359">
-                                <rect key="frame" x="0.0" y="506.5" width="414" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <rect key="frame" x="0.0" y="516.5" width="414" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -108,8 +108,8 @@
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="your Origin and Destination." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Grh-8n-j68">
-                                <rect key="frame" x="0.0" y="584.5" width="414" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <rect key="frame" x="0.0" y="586.5" width="414" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -117,7 +117,7 @@
                         <viewLayoutGuide key="safeArea" id="aLG-zi-tIc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="HwJ-ve-359" firstAttribute="top" secondItem="c37-0M-kXW" secondAttribute="bottom" constant="40" id="272-Pi-W4P"/>
+                            <constraint firstItem="HwJ-ve-359" firstAttribute="top" secondItem="c37-0M-kXW" secondAttribute="bottom" constant="50" id="272-Pi-W4P"/>
                             <constraint firstItem="hVu-ia-aje" firstAttribute="top" secondItem="rGm-Sf-oXw" secondAttribute="bottom" constant="49" id="8Un-K0-bza"/>
                             <constraint firstItem="hVu-ia-aje" firstAttribute="leading" secondItem="L7S-4C-WGn" secondAttribute="trailing" constant="28" id="8zZ-8m-v2v"/>
                             <constraint firstItem="PSZ-2g-NAO" firstAttribute="leading" secondItem="c37-0M-kXW" secondAttribute="trailing" constant="28" id="Bma-g0-7hc"/>
@@ -191,13 +191,20 @@
                                     <segue destination="rKG-pG-BzA" kind="presentation" id="hzD-5S-xrz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFN-os-22O">
-                                <rect key="frame" x="184" y="650" width="54" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFN-os-22O">
+                                <rect key="frame" x="0.0" y="650" width="414" height="52"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <state key="normal" title="test"/>
                                 <connections>
                                     <segue destination="uYx-fJ-N8q" kind="presentation" id="7Sb-FF-peQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6rb-Ch-1M1">
+                                <rect key="frame" x="184" y="505" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="v7i-Od-7ck" kind="showDetail" id="6Fp-i1-kTV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -206,11 +213,14 @@
                         <constraints>
                             <constraint firstItem="OB1-zf-X5i" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="220" id="68Q-Nz-UBZ"/>
                             <constraint firstItem="bOv-70-5FL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7Hb-u0-jib"/>
+                            <constraint firstItem="eFN-os-22O" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="B6X-2B-eJR"/>
                             <constraint firstAttribute="trailing" secondItem="bOv-70-5FL" secondAttribute="trailing" id="GMR-FT-WhT"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3q4-Y0-0FZ" secondAttribute="bottom" constant="65" id="HkL-gV-tle"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3q4-Y0-0FZ" secondAttribute="bottom" constant="11" id="HkL-gV-tle"/>
                             <constraint firstItem="3q4-Y0-0FZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Lk7-OB-udC"/>
                             <constraint firstItem="bOv-70-5FL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="203" id="V8A-5N-5Jc"/>
                             <constraint firstItem="bOv-70-5FL" firstAttribute="leading" secondItem="OB1-zf-X5i" secondAttribute="leading" id="cJe-bD-aK6"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="eFN-os-22O" secondAttribute="bottom" constant="106" id="ctE-gd-1o9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eFN-os-22O" secondAttribute="trailing" constant="-20" id="fm5-6K-Kwx"/>
                             <constraint firstItem="bOv-70-5FL" firstAttribute="trailing" secondItem="OB1-zf-X5i" secondAttribute="trailing" id="n1V-h8-MTs"/>
                             <constraint firstItem="3q4-Y0-0FZ" firstAttribute="centerX" secondItem="OB1-zf-X5i" secondAttribute="centerX" id="tWM-PZ-nA3"/>
                         </constraints>
@@ -3748,20 +3758,428 @@
             <objects>
                 <viewController id="v7i-Od-7ck" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0ji-aS-Reo">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Australia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yCQ-rG-dpU" userLabel="Australia">
+                                <rect key="frame" x="0.0" y="55" width="414" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Singapore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5il-Yz-MNf">
+                                <rect key="frame" x="0.0" y="130" width="414" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jmm-wd-UtB">
+                                <rect key="frame" x="11" y="211" width="393" height="529"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Published 01.10.2020  
+Obtained from: www.iatatravelcentre.com/world
+
+1. Passengers are not allowed to enter Singapore.
+- This does not apply to nationals of Singapore.
+- This does not apply to permanent residents of Singapore.
+- This does not apply to passengers with a Long-Term Visit Pass (LTVP) or a Long-Term Visit Pass In-Principle Approval (LTVP IPA). They must have an Approval Letter for Entry (ALE) issued by the Immigration &amp; Checkpoints Authority (ICA).
+- This does not apply to passengers with a Work Pass, Long-Term Visit Pass (LTVP), Dependant's Pass, or the respective In-Principle Approval (IPA) issued by the Ministry of Manpower (MOM). They must have an approval letter from the Ministry of Manpower (MOM) or the Immigration &amp; Checkpoints Authority (ICA).
+- This does not apply to passengers with a Student's Pass (STP) or a Student's Pass In-Principle Approval (STP IPA). They must have an Approval Letter for Entry (ALE) issued by the Ministry of Education (MOE) or the Immigration &amp; Checkpoints Authority (ICA).
+- This does not apply to passengers with an approval letter from the Immigration &amp; Checkpoints Authority (ICA), Ministry of Foreign Affairs (MFA), Ministry of Education (MOE), Ministry of Health (MOH), or Ministry of Trade and Industry (MTI).
+
+This does not apply to passengers with an Air Travel Pass approval letter issued by Singapore if they:
+- have stayed in Australia (excluding Victoria State), Brunei Darussalam, New Zealand or Viet Nam in the last 14 days before departure; and
+- have a visa to enter Singapore (if they are a visa-required short-term visitor); and
+- have a mobile device with the TraceTogether app downloaded, unless they are aged 12 years old or younger in that calendar year and traveling with a parent or guardian, or those who are unable to use a mobile device due to a certified disability and/or special need.
+
+This does not apply to residents of Brunei Darussalam if they:
+- have a valid SafeTravel Pass approval letter issued by Singapore under the Singapore-Brunei Reciprocal Green Lane; and
+- have a visa to enter Singapore (if they are a visa-required short-term visitor); and
+- have a medical certificate with a negative Coronavirus (COVID-19) PCR test result, taken within 72 hours before departure; and
+- stayed in Brunei Darussalam in the last 14 days before departure; and
+- have a return ticket or proof of other transportation arrangements to depart from Singapore.
+
+This does not apply to residents of China (People’s Rep.) if they:
+- have a valid Safe Travel Pass approval letter issued by Singapore under the Singapore-China Fast Lane; and
+- have a visa to enter Singapore (if they are a visa-required short-term visitor); and
+- have a medical certificate with a negative Coronavirus (COVID-19) PCR test result, taken within 72 hours before departure; and
+- stayed in Chongqing, Guangdong, Jiangsu, Shanghai, Tianjin, or Zhejiang in the last 7 days before departure; and
+- have a return ticket or proof of other transportation arrangements to depart from Singapore.
+
+This does not apply to residents of Japan if they:
+- depart from Haneda International Airport (HND), Narita International Airport (NRT), or Kansai International Airport (KIX); and
+- have a valid SafeTravel Pass approval letter issued by Singapore under the Singapore-Japan Reciprocal Green Lane; and
+- have a visa to enter Singapore (if they are a visa-required short-term visitor); and
+- have a medical certificate with a negative Coronavirus (COVID-19) PCR test result, taken within 72 hours before departure; and
+- stayed in Japan in the last 14 days before departure; and
+- have a return ticket or proof of other transportation arrangements to depart from Singapore.
+
+This does not apply to residents of Korea (Rep.) if they:
+- depart from Incheon International Airport (ICN); and
+- have a valid SafeTravel Pass approval letter issued by Singapore under the Singapore-ROK Fast Lane; and
+- have a visa to enter Singapore (if they are a visa-required short-term visitor); and
+- have a medical certificate with a negative Coronavirus (COVID-19) PCR test result, taken within 72 hours before departure; and
+- stayed in Korea (Rep.) in the last 14 days before departure; and
+- have a return ticket or proof of other transportation arrangements to depart from Singapore.
+
+This does not apply to residents of Malaysia if they:
+- have a valid SafeTravel Pass approval letter issued by Singapore under the Singapore-Malaysia Reciprocal Green Lane; and
+- have a visa to enter Singapore (if they are a visa-required short-term visitor); and
+- have a medical certificate with a negative Coronavirus (COVID-19) PCR test result, taken within 72 hours before departure; and
+- have stayed in Malaysia in the last 14 days before departure.
+
+This does not apply to returning passengers with a Work Pass, Student's Pass, Dependant’s Pass, or Long-Term Visit Pass who have a Entry Travel Pass issued by the Brunei authorities under the Singapore-Brunei Reciprocal Green Lane, an invitation letter issued by the Chinese authorities under the Singapore-China Fast Lane, an approval letter issued by the Embassy of Japan under the Singapore-Japan Reciprocal Green Lane, an approval letter issued by the Korea (Rep.) Embassy in Singapore under the Singapore-ROK Fast Lane, or a MyTravelPass approval letter issued by the Malaysian authorities under the Singapore-Malaysia Reciprocal Green Lane. They do not require an approval letter from the Immigration &amp; Checkpoints Authority (ICA), Ministry of Manpower (MOM), or Ministry of Education (MOE).
+
+
+2. Passengers who have been to India within the past 14 days before entry into Singapore must have a medical certificate with a negative Coronavirus (COVID-19) PCR test result, taken within 72 hours before departure from India. Please refer to https://www.moh.gov.sg/covid-19/faqs
+- This does not apply to passengers aged 12 or below;
+- This does not apply to nationals of Singapore;
+- This does not apply to permanent residents of Singapore.
+
+3. Passengers are not allowed to transit Singapore.
+- This does not apply when traveling on airlines with transfer routes approved by the Civil Aviation Authority of Singapore (CAAS). Passengers must check with airlines if they have the Civil Aviation Authority of Singapore (CAAS)'s approval, before purchasing tickets.
+
+4. Passengers must comply with the prevailing Stay-Home Notice (SHN) requirements upon entry into Singapore. Please refer to https://www.ica.gov.sg/covid-19.
+- This does not apply to passengers entering Singapore under the Singapore-China Fast Lane. They must comply with requirements found at https://safetravel.ica.gov.sg.
+
+5. Passengers must submit a health declaration before arrival via the SG Arrival Card (SGAC) e-Service (https://eservices.ica.gov.sg/sgarrivalcard) or via the mobile application.
+- This does not apply to passengers in transit.
+</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQX-UQ-nsh">
+                                <rect key="frame" x="0.0" y="758" width="414" height="54"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                <state key="normal" title="Understood"/>
+                                <connections>
+                                    <segue destination="QiY-t7-Haf" kind="showDetail" id="7B5-nI-A5Y"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXp-Ko-ySK">
+                                <rect key="frame" x="0.0" y="92" width="414" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="UrV-nd-5A2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eXp-Ko-ySK" firstAttribute="top" secondItem="UrV-nd-5A2" secondAttribute="top" constant="92" id="2tv-aW-gZi"/>
+                            <constraint firstItem="eXp-Ko-ySK" firstAttribute="trailing" secondItem="UrV-nd-5A2" secondAttribute="trailing" id="4Sx-Cr-hvO"/>
+                            <constraint firstItem="Jmm-wd-UtB" firstAttribute="leading" secondItem="UrV-nd-5A2" secondAttribute="leading" constant="11" id="6Vt-4o-P1n"/>
+                            <constraint firstAttribute="bottom" secondItem="oQX-UQ-nsh" secondAttribute="bottom" constant="30" id="Ek1-q7-S31"/>
+                            <constraint firstItem="yCQ-rG-dpU" firstAttribute="leading" secondItem="UrV-nd-5A2" secondAttribute="leading" id="QDw-5u-Zxv"/>
+                            <constraint firstItem="UrV-nd-5A2" firstAttribute="bottom" secondItem="Jmm-wd-UtB" secondAttribute="bottom" constant="68" id="ThE-6W-o7U"/>
+                            <constraint firstItem="yCQ-rG-dpU" firstAttribute="top" secondItem="UrV-nd-5A2" secondAttribute="top" constant="55" id="cXU-if-I6F"/>
+                            <constraint firstItem="oQX-UQ-nsh" firstAttribute="leading" secondItem="0ji-aS-Reo" secondAttribute="leading" id="dFb-WP-ZTc"/>
+                            <constraint firstAttribute="trailing" secondItem="oQX-UQ-nsh" secondAttribute="trailing" id="lyU-Aw-5ux"/>
+                            <constraint firstItem="UrV-nd-5A2" firstAttribute="trailing" secondItem="Jmm-wd-UtB" secondAttribute="trailing" constant="10" id="md4-CI-op5"/>
+                            <constraint firstItem="eXp-Ko-ySK" firstAttribute="leading" secondItem="UrV-nd-5A2" secondAttribute="leading" id="nw1-fK-mdg"/>
+                            <constraint firstItem="5il-Yz-MNf" firstAttribute="top" secondItem="UrV-nd-5A2" secondAttribute="top" constant="130" id="o3c-1L-pux"/>
+                            <constraint firstItem="5il-Yz-MNf" firstAttribute="leading" secondItem="UrV-nd-5A2" secondAttribute="leading" id="p5Q-m0-20F"/>
+                            <constraint firstItem="5il-Yz-MNf" firstAttribute="trailing" secondItem="UrV-nd-5A2" secondAttribute="trailing" id="pvq-IU-U0i"/>
+                            <constraint firstItem="yCQ-rG-dpU" firstAttribute="trailing" secondItem="UrV-nd-5A2" secondAttribute="trailing" id="vcB-8g-K9D"/>
+                            <constraint firstItem="Jmm-wd-UtB" firstAttribute="top" secondItem="UrV-nd-5A2" secondAttribute="top" constant="211" id="wWt-ov-sjz"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fYh-08-5ya" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1094" y="76"/>
+            <point key="canvasLocation" x="1092.753623188406" y="75.669642857142847"/>
         </scene>
-        <!--View Controller-->
+        <!--Table View Controller-->
+        <scene sceneID="p9l-pH-d3n">
+            <objects>
+                <tableViewController id="QiY-t7-Haf" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="jNm-xD-PyV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <mapView key="tableHeaderView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" pitchEnabled="NO" id="uq8-0S-C5D">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="350"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </mapView>
+                        <sections>
+                            <tableViewSection headerTitle="Popular Attractions" id="wPk-fN-cVX">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="vIw-qu-1Gb" style="IBUITableViewCellStyleDefault" id="ngz-cj-hyq">
+                                        <rect key="frame" x="0.0" y="405.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ngz-cj-hyq" id="9EC-2Y-oww">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Marina Bay Sands Singapore" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vIw-qu-1Gb">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="9kb-48-mAz" style="IBUITableViewCellStyleDefault" id="0QB-Se-xb9">
+                                        <rect key="frame" x="0.0" y="449" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0QB-Se-xb9" id="vlR-Tg-7dW">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Gardens by the Bay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9kb-48-mAz">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="zR7-iP-Bie" style="IBUITableViewCellStyleDefault" id="ER8-3H-BN3">
+                                        <rect key="frame" x="0.0" y="492.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ER8-3H-BN3" id="DdF-mt-9QJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Sentosa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zR7-iP-Bie">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="zgu-i6-c2I" style="IBUITableViewCellStyleDefault" id="DAM-eG-hHF">
+                                        <rect key="frame" x="0.0" y="536" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DAM-eG-hHF" id="WAU-1q-SxB">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Universal Studios Singapore" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zgu-i6-c2I">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="Kqh-EC-KAI" style="IBUITableViewCellStyleDefault" id="PrS-MU-eog">
+                                        <rect key="frame" x="0.0" y="579.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PrS-MU-eog" id="SXm-R3-ono">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Orchard Road" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kqh-EC-KAI">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="8CM-NC-jRW" style="IBUITableViewCellStyleDefault" id="DKY-62-GcG">
+                                        <rect key="frame" x="0.0" y="623" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DKY-62-GcG" id="Bzh-xY-5gK">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Singapore Flyer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8CM-NC-jRW">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="lMK-vN-dHq" style="IBUITableViewCellStyleDefault" id="L1O-ym-wvS">
+                                        <rect key="frame" x="0.0" y="666.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="L1O-ym-wvS" id="kR9-dR-Gd2">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Raffles Hotel Singapore" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lMK-vN-dHq">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="5ef-Ga-6We" style="IBUITableViewCellStyleDefault" id="8ej-xm-rgt">
+                                        <rect key="frame" x="0.0" y="710" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8ej-xm-rgt" id="tTQ-Sl-tsf">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Singapore Zoo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5ef-Ga-6We">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="wNQ-Oq-cLf" style="IBUITableViewCellStyleDefault" id="Qdc-fg-O4P">
+                                        <rect key="frame" x="0.0" y="753.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Qdc-fg-O4P" id="eRL-nl-NOH">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Botanic Gardens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wNQ-Oq-cLf">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="jVb-ke-1SZ" style="IBUITableViewCellStyleDefault" id="Gu5-S3-7Wb">
+                                        <rect key="frame" x="0.0" y="797" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Gu5-S3-7Wb" id="GcW-Ok-srH">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Chinatown" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jVb-ke-1SZ">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="cVa-jm-9eb" style="IBUITableViewCellStyleDefault" id="QEb-6U-2xS">
+                                        <rect key="frame" x="0.0" y="840.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QEb-6U-2xS" id="1go-UE-rsk">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Asian Civilisations Museum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cVa-jm-9eb">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="dGw-Gv-XtF" style="IBUITableViewCellStyleDefault" id="iDP-OG-Nvd">
+                                        <rect key="frame" x="0.0" y="884" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iDP-OG-Nvd" id="zwf-vH-aUS">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Pulau Ubin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dGw-Gv-XtF">
+                                                    <rect key="frame" x="15" y="0.0" width="391" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="NY7-Td-e5P" style="IBUITableViewCellStyleDefault" id="P0x-xb-sb3">
+                                        <rect key="frame" x="0.0" y="927.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="P0x-xb-sb3" id="Joy-TT-Dbx">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Fort Canning Park" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NY7-Td-e5P">
+                                                    <rect key="frame" x="15" y="0.0" width="391" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="ehL-vP-1JJ" style="IBUITableViewCellStyleDefault" id="UGk-77-RM6">
+                                        <rect key="frame" x="0.0" y="971" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UGk-77-RM6" id="0yN-Wb-nYz">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="The Maritime Experiential Museum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ehL-vP-1JJ">
+                                                    <rect key="frame" x="15" y="0.0" width="391" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="Xqh-B2-20M" style="IBUITableViewCellStyleDefault" id="t85-FU-OV4">
+                                        <rect key="frame" x="0.0" y="1014.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="t85-FU-OV4" id="lHY-zw-V2e">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Fort Siloso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xqh-B2-20M">
+                                                    <rect key="frame" x="15" y="0.0" width="391" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="QiY-t7-Haf" id="j4h-58-7mI"/>
+                            <outlet property="delegate" destination="QiY-t7-Haf" id="RiQ-bl-7kr"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <segue destination="uYx-fJ-N8q" kind="show" identifier="goTo" id="Woo-KB-Dgz"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GSE-vx-qd3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1870" y="-345"/>
+        </scene>
+        <!--Go Where View Controller-->
         <scene sceneID="ylo-mk-RhR">
             <objects>
-                <viewController id="uYx-fJ-N8q" sceneMemberID="viewController">
+                <viewController id="uYx-fJ-N8q" customClass="goWhereViewController" customModule="KnowAndGo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Piv-UR-uX3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3812,12 +4230,16 @@ Marina Bay Sands seamlessly combines business and leisure into a singular destin
                             <constraint firstItem="L3F-sW-II4" firstAttribute="bottom" secondItem="zK6-3R-pNa" secondAttribute="bottom" constant="55" id="zsj-jF-L5o"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="pv5-Bb-Ear"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JfQ-tH-tba" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2173.913043478261" y="75"/>
+            <point key="canvasLocation" x="2643" y="76"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Woo-KB-Dgz"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="MBS" width="1850" height="1233.5"/>
         <image name="bed.double" catalog="system" width="128" height="82"/>
