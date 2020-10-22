@@ -100,9 +100,9 @@
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="creditcard" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="c37-0M-kXW">
-                                <rect key="frame" x="37" y="405.5" width="70" height="56"/>
+                                <rect key="frame" x="37" y="405.5" width="75" height="56"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="7Br-C6-V2f"/>
+                                    <constraint firstAttribute="width" constant="75" id="7Br-C6-V2f"/>
                                     <constraint firstAttribute="height" constant="66.5" id="8zb-5M-1gJ"/>
                                 </constraints>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50"/>
@@ -120,7 +120,7 @@
                             <constraint firstItem="HwJ-ve-359" firstAttribute="top" secondItem="c37-0M-kXW" secondAttribute="bottom" constant="50" id="272-Pi-W4P"/>
                             <constraint firstItem="hVu-ia-aje" firstAttribute="top" secondItem="rGm-Sf-oXw" secondAttribute="bottom" constant="49" id="8Un-K0-bza"/>
                             <constraint firstItem="hVu-ia-aje" firstAttribute="leading" secondItem="L7S-4C-WGn" secondAttribute="trailing" constant="28" id="8zZ-8m-v2v"/>
-                            <constraint firstItem="PSZ-2g-NAO" firstAttribute="leading" secondItem="c37-0M-kXW" secondAttribute="trailing" constant="28" id="Bma-g0-7hc"/>
+                            <constraint firstItem="PSZ-2g-NAO" firstAttribute="leading" secondItem="c37-0M-kXW" secondAttribute="trailing" constant="23" id="Bma-g0-7hc"/>
                             <constraint firstItem="Grh-8n-j68" firstAttribute="trailing" secondItem="aLG-zi-tIc" secondAttribute="trailing" id="CiI-Rf-qGO"/>
                             <constraint firstItem="GrE-ZX-OUf" firstAttribute="top" secondItem="HwJ-ve-359" secondAttribute="bottom" constant="5" id="Cqh-X6-qke"/>
                             <constraint firstItem="L7S-4C-WGn" firstAttribute="top" secondItem="rGm-Sf-oXw" secondAttribute="bottom" constant="46" id="CrO-sV-cnX"/>
@@ -134,7 +134,7 @@
                             <constraint firstItem="rGm-Sf-oXw" firstAttribute="top" secondItem="aLG-zi-tIc" secondAttribute="top" constant="50" id="W3R-3A-AAe"/>
                             <constraint firstItem="HwJ-ve-359" firstAttribute="leading" secondItem="aLG-zi-tIc" secondAttribute="leading" id="Zr7-l8-HbZ"/>
                             <constraint firstItem="L7S-4C-WGn" firstAttribute="leading" secondItem="aLG-zi-tIc" secondAttribute="leading" constant="37" id="bDF-wh-hxg"/>
-                            <constraint firstItem="b95-vn-1fY" firstAttribute="leading" secondItem="c37-0M-kXW" secondAttribute="trailing" constant="28" id="bP3-Kk-dDZ"/>
+                            <constraint firstItem="b95-vn-1fY" firstAttribute="leading" secondItem="c37-0M-kXW" secondAttribute="trailing" constant="23" id="bP3-Kk-dDZ"/>
                             <constraint firstItem="kaO-ZT-HJi" firstAttribute="top" secondItem="45f-1I-4y1" secondAttribute="bottom" constant="48" id="bqD-9e-52L"/>
                             <constraint firstItem="kaO-ZT-HJi" firstAttribute="leading" secondItem="Zhu-HK-ruN" secondAttribute="trailing" constant="28" id="cbX-bw-O49"/>
                             <constraint firstItem="c37-0M-kXW" firstAttribute="top" secondItem="Zhu-HK-ruN" secondAttribute="bottom" constant="31.5" id="dQY-Ws-Qec"/>
@@ -4088,7 +4088,7 @@ This does not apply to returning passengers with a Work Pass, Student's Pass, De
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Pulau Ubin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dGw-Gv-XtF">
-                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <rect key="frame" x="15" y="0.0" width="391" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                     <nil key="textColor"/>
@@ -4105,7 +4105,7 @@ This does not apply to returning passengers with a Work Pass, Student's Pass, De
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Fort Canning Park" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NY7-Td-e5P">
-                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <rect key="frame" x="15" y="0.0" width="391" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                     <nil key="textColor"/>
@@ -4122,7 +4122,7 @@ This does not apply to returning passengers with a Work Pass, Student's Pass, De
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="The Maritime Experiential Museum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ehL-vP-1JJ">
-                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <rect key="frame" x="15" y="0.0" width="391" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                     <nil key="textColor"/>
