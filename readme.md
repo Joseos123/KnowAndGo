@@ -4,7 +4,7 @@
 
 | Welcome Screen | Country Selector | Destination Selector |
 | ------------- | -------- | -------- |
-| ![1](App Screenshots/01.PNG) | ![2](App Screenshots/02.PNG) | ![3](App Screenshots/03.PNG) |
+| [1](App Screenshots/01.PNG) | ![2](App Screenshots/02.PNG) | ![3](App Screenshots/03.PNG) |
 
 | Restrction Info | Places/Attractions | Place Information |
 | ----------- | -------------------- | --------------- |
