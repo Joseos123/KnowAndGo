@@ -2,4 +2,4 @@
 <h1> Screenshots </h1>
 | Welcome Page | Country Selection | Destination Selection | Restriction Information |
 | :-: | :-: | :-: | :-: |
-| <img src="/App Screenshots/01"> | 02 | 03 | 04 |
+| <img src="https://github.com/Joseos123/KnowAndGo-ios-xcode/blob/main/App%20Screenshots/01.PNG?raw=true"> | 02 | 03 | 04 |
